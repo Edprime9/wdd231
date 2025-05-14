@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #e8fce8;
+  color: #000;
+}
+
+.homepage {
+  grid-column: 1 / -1;
+}
+
+.container {
+  max-width: 100%;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #087f5b;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+header img {
+  border-radius: 50%;
+  width: 80px;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #333;
+}
+
+h2 {
+  margin-top: 0;
+  background-color: #087f5b;
+  color: #fff;
+  padding: 1rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+main {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+}
+
+.course-work,
+.location {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-weight: bold;
+}
+
+.location img {
+  width: 90%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.certificate {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: #fff;
+  grid-column: 1 / -1;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.filters button {
+  margin: 0.25rem;
+  padding: 0.5rem 1rem;
+  background-color: #087f5b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 5px;
+  min-width: 100px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card.completed {
+  background-color: #087f5b;
+  color: white;
+  border: 2px solid #000;
+}
+
+.card.not-completed {
+  background-color: #ffcdd2;
+  color: #000;
+  border: 2px dashed #b71c1c;
+}
+
+footer {
+  background-color: #087f5b;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+footer img {
+  width: 25px;
+}
+
+/* ============================
+   MOBILE RESPONSIVE STYLES
+=============================== */
+@media screen and (max-width: 420px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    padding: 0.75rem;
+  }
+
+  .filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filters button {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 0.5rem;
+  }
+
+  .courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  header img {
+    width: 60px;
+  }
+
+  .location img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}

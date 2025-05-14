@@ -1,11 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WDD231</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morrison Eli</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/main.js" defer></script>
   </head>
   <body>
-    <h1>WDD231</h1>
+    <header>
+      <img src="images/profile.jpg" alt="Morrison Eli">
+      <h1>Morrison Eli</h1>
+    </header>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Chamber</a>
+      <a href="#">Final</a>
+      <a href="#">GitHub Profile</a>
+      <a href="#">LinkedIn</a>
+    </nav>
+    <div class="container">
+      <main>
+        <h1 class="homepage">Home</h1>
+        <section class="course-work">
+          <h2>Course Work</h2>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </section>
+
+        <section class="location">
+          <h2>Rivers State, Nigeria.</h2>
+          <img src="images\rivers-state.jpg" alt="rivers-state">
+          <p>Rivers State</p>
+        </section>
+
+        <section class="certificate">
+          <h2>Web and Computer Programming Certificate</h2>
+          <div class="filters">
+            <button>All</button>
+            <button>CSE</button>
+            <button>WDD</button>
+          </div>
+          <div class="courses">
+            <div class="card brown">CSE 110</div>
+            <div class="card brown">WDD 130</div>
+            <div class="card brown">CSE 111</div>
+            <div class="card gray">CSE 210</div>
+            <div class="card gray">WDD 131</div>
+            <div class="card gray">WDD 231</div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <p>
+        &copy;<span id="currentyear"></span> | Morrison Eli | 🌍 Nigeria
+        <img src="images\nigeria-flag.webp" alt="Madagascar Flag">
+      </p>
+      <p id="lastModified"></p>
+    </footer>
   </body>
 </html>
