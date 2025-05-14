@@ -1,0 +1,69 @@
+/* ============================
+   MOBILE RESPONSIVE STYLES
+=============================== */
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  #menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    display: none;
+    background-color: black;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  nav a {
+    padding: 0.75rem;
+  }
+
+  .filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filters button {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 0.5rem;
+  }
+
+  .courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  header img {
+    width: 60px;
+  }
+
+  .location img {
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
