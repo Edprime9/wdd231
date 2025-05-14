@@ -42,7 +42,7 @@ const courses = [
     description:
       "This course will introduce the notion of classes and objects...",
     technology: ["C#"],
-    completed: false,
+    completed: true,
   },
   {
     subject: "WDD",
