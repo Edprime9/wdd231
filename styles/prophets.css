@@ -44,6 +44,8 @@ main {
 #cards p {
   margin: 0.3rem 0;
   font-size: 0.95rem;
+  font-weight: bold;
+  line-height: 1.4;
 }
 
 #cards img {
