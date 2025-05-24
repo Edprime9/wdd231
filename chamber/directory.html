@@ -1,11 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore top businesses in Port Harcourt, Rivers State. Find verified members of the PrimeHub Chamber of Commerce."
+    />
+
+    <meta name="author" content="Morrison Eli" />
+    <title>Directory | Primehub Chamber of Commerce</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon2.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yourdomain.com/directory.html" />
+    <meta
+      property="og:title"
+      content="Timbuktu Chamber of Commerce - Business Directory"
+    />
+    <meta
+      property="og:description"
+      content="Explore top businesses in Port Harcourt, Rivers State. Find verified members of the Timbuktu Chamber of Commerce."
+    />
+    <meta
+      property="og:image"
+      content="https://yourdomain.com/images/social-preview.jpg"
+    />
+    <meta property="og:locale" content="en_NG" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://yourdomain.com/directory.html" />
+    <meta
+      name="twitter:title"
+      content="PrimeHub Chamber of Commerce - Business Directory"
+    />
+    <meta
+      name="twitter:description"
+      content="Explore top businesses in Port Harcourt, Rivers State. Find verified members of the PrimeHub Chamber of Commerce."
+    />
+    <meta
+      name="twitter:image"
+      content="https://yourdomain.com/images/social-preview.jpg"
+    />
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles/members.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="images/phs-logo.jpg"
+          alt="PrimeHub Chamber of Commerce Logo"
+        />
+        <h1>PrimeHub Chamber of Commerce</h1>
+      </div>
+      <button id="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+
+      <!-- Navigation -->
+      <nav id="main-nav">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="directory.html" class="active">Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="discover.html">Discover</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>PrimeHub Chamber Directory</h2>
+      <div class="view-toggle">
+        <button id="grid-view">Grid View</button>
+        <button id="list-view">List View</button>
+      </div>
+      <section id="members" class="grid-view">
+        <!-- Cards will be injected here via JavaScript -->
+      </section>
+    </main>
+
+    <footer>
+      <div class="contact-info">
+        <p><strong>PrimeHub Chamber of Commerce</strong></p>
+        <p>20A Gbalajam Woji, Port Harcourt, Rivers Nigeria.<br /></p>
+        <p>
+          Email:
+          <a href="mailto: morrisoneli9@gmail.com">morrisoneli9@gmail.com</a
+          ><br />Phone: (+234) 90 1101 0392
+        </p>
+      </div>
+      <div class="social-icons">
+        <a href="https://web.facebook.com/morrison.morris.77" target="_blank"
+          ><img src="images/logo-facebook.svg" alt="Facebook"
+        /></a>
+        <a href="https://x.com/Elite_Morrison" target="_blank"
+          ><img src="images/logo-twitter.svg" alt="Twitter"
+        /></a>
+        <a href="https://www.linkedin.com/in/morrisoneli/" target="_blank"
+          ><img src="images/logo-linkedin.svg" alt="LinkedIn"
+        /></a>
+      </div>
+      <div class="footer-note">
+        <p>WDD231 Class Project<br />Morrison Eli</p>
+        <p>&copy; <span id="year"></span> PrimeHub Chamber of Commerce</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+      </div>
+    </footer>
+
+    <script src="scripts/members.js" defer></script>
+    <script>
+      // Footer Year and Last Modified Date
+      document.getElementById("year").textContent = new Date().getFullYear();
+      document.getElementById("lastModified").textContent =
+        document.lastModified;
+    </script>
+  </body>
 </html>

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Eloti Designs",
+    "address": "Trans Amadi, Port Harcourt, , Rivers, Nigeria.",
+    "phone": "+234 803 614 0158",
+    "Url": "https://elotidesigns.com/",
+    "image": "eloti-designs.png",
+    "membership": 3
+  },
+  {
+    "name": "Auburn Oil - Authorised Lubricant Distributor",
+    "address": "270 Trans Amadi Industrial Layout, Port Harcourt, Rivers, Nigeria",
+    "phone": "+234 803 226 9251",
+    "url": "https://auburntrading.com/",
+    "image": "auburntrading.png",
+    "membership": 2
+  },
+  {
+    "name": "Oak Event & Party Rentals",
+    "address": "16b Trans Amadi, Port Harcourt, Rivers, Nigeria",
+    "phone": "+234 809 822 2218",
+    "url": "https://oakrentals.com.ng/",
+    "image": "oak-event-party-rentals.png",
+    "membership": 1
+  },
+  {
+    "name": "Webdeves Technologies",
+    "address": "280 Ph/Aba Express Road 2nd floor, opp. Rumuokwrushi Bus Stop, Port Harcourt, Rivers, Nigeria",
+    "phone": "+234 816 302 9890",
+    "url": "https://www.webdeves.com/",
+    "image": "webdeves-technologies.png",
+    "membership": 2
+  },
+  {
+    "name": "Matches Luxury Dezines",
+    "address": "33 Royal Avenue, Off Doxa Road, Off Peter Odili Road, Trans Amadi, Port Harcourt., Rivers, Nigeria",
+    "phone": "+234 815 309 9127",
+    "url": "https://matchesluxury.com/",
+    "image": "matches-luxury-dezines.jpg",
+    "membership": 1
+  },
+  {
+    "name": "Dinspira Travels Nig. LTD",
+    "address": "Suite 26, 21 ALCON Road, beside WELCOME U Supermarket, Woji, Port Harcourt, Rivers, Nigeria",
+    "phone": "+234 803 255 1291",
+    "url": "https://dinspira.com/",
+    "image": "dinspira-travels-nig-ltd.jpg",
+    "membership": 3
+  },
+  {
+    "name": "Expert Paint Advice",
+    "address": "Ada George road, Port Harcourt, Rivers, Nigeria",
+    "phone": "+234 701 459 3743",
+    "url": "https://paint-academy.com/",
+    "image": "expert-paint-advice.jpg",
+    "membership": 2
+  }
+]
