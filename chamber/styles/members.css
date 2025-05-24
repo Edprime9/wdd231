@@ -23,6 +23,11 @@ header {
   justify-content: space-between;
 }
 
+header p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -71,7 +76,7 @@ main {
   margin: auto;
 }
 
-h2 {
+h1 {
   text-align: center;
   margin-bottom: 1rem;
   font-size: 2rem;
