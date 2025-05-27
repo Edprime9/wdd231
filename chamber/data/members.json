@@ -5,7 +5,7 @@
     "phone": "+234 803 614 0158",
     "Url": "https://elotidesigns.com/",
     "image": "eloti-designs.png",
-    "membership": 3
+    "membership": "Gold"
   },
   {
     "name": "Auburn Oil - Authorised Lubricant Distributor",
@@ -13,15 +13,15 @@
     "phone": "+234 803 226 9251",
     "url": "https://auburntrading.com/",
     "image": "auburntrading.png",
-    "membership": 2
+    "membership": "Silver"
   },
   {
     "name": "Oak Event & Party Rentals",
     "address": "16b Trans Amadi, Port Harcourt, Rivers, Nigeria",
     "phone": "+234 809 822 2218",
     "url": "https://oakrentals.com.ng/",
-    "image": "oak-event-party-rentals.png",
-    "membership": 1
+    "image": "oak-event-party-rentals.jpg",
+    "membership": "Gold"
   },
   {
     "name": "Webdeves Technologies",
@@ -29,7 +29,7 @@
     "phone": "+234 816 302 9890",
     "url": "https://www.webdeves.com/",
     "image": "webdeves-technologies.png",
-    "membership": 2
+    "membership": "Gold"
   },
   {
     "name": "Matches Luxury Dezines",
@@ -37,7 +37,7 @@
     "phone": "+234 815 309 9127",
     "url": "https://matchesluxury.com/",
     "image": "matches-luxury-dezines.jpg",
-    "membership": 1
+    "membership": "Silver"
   },
   {
     "name": "Dinspira Travels Nig. LTD",
@@ -45,7 +45,7 @@
     "phone": "+234 803 255 1291",
     "url": "https://dinspira.com/",
     "image": "dinspira-travels-nig-ltd.jpg",
-    "membership": 3
+    "membership": "Silver"
   },
   {
     "name": "Expert Paint Advice",
@@ -53,6 +53,6 @@
     "phone": "+234 701 459 3743",
     "url": "https://paint-academy.com/",
     "image": "expert-paint-advice.jpg",
-    "membership": 2
+    "membership": "Gold"
   }
 ]
