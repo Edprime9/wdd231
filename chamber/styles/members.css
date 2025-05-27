@@ -70,7 +70,7 @@ nav a.active {
 }
 
 /* ===== Main ===== */
-main {
+.container {
   padding: 2rem;
   max-width: 1200px;
   margin: auto;
@@ -176,30 +176,43 @@ footer .social-icons img {
 
 /* Home Page */
 
-/* Hero Section */
 .hero {
+  background-image: url(../images/chamber-hero.jpg); /* Replace with your own image path */
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
   position: relative;
-  max-height: 400px;
-  overflow: hidden;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.hero img {
-  width: 100%;
-  height: auto;
-  display: block;
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* Dark overlay */
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
 }
 
 .cta-button {
-  position: absolute;
-  bottom: 1.5rem;
-  left: 1.5rem;
-  background: #087f5b;
+  background-color: #087f5b;
   color: #fff;
-  padding: 0.75rem 1.5rem;
+  padding: 10px 20px;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  margin-top: 15px;
+  display: inline-block;
 }
 
 .cta-button:hover {
