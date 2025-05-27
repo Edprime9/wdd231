@@ -175,6 +175,7 @@ footer .social-icons img {
 }
 
 /* Home Page */
+
 /* Hero Section */
 .hero {
   position: relative;
@@ -187,7 +188,6 @@ footer .social-icons img {
   height: auto;
   display: block;
 }
-
 
 .cta-button {
   position: absolute;
@@ -206,12 +206,6 @@ footer .social-icons img {
   background: #12b886;
 }
 
-/* Main Content Sections */
- /* main {
-  padding: 2rem 1rem;
-} */
-
-
 section {
   margin-bottom: 2rem;
   background: #fff;
@@ -219,7 +213,6 @@ section {
   border-radius: 0.5rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-
 
 section h2 {
   color: #000;
@@ -291,7 +284,6 @@ section h2 {
   font-style: italic;
   color: #000;
 }
-
 
 
 /* Responsive Layout */
