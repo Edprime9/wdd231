@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
- <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta
-    name="description"
-    content="Explore top businesses in Port Harcourt, Rivers State. Find verified members of the PrimeHub Chamber of Commerce."
-  >
-  <meta name="author" content="Morrison Eli">
-   
-  <title>PrimeHub Chamber of Commerce - Home Page</title>
-  <link rel="icon" href="images/favicon2.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Official PrimeHub Chamber of Commerce homepage for our community."
+    >
+    <meta name="author" content="Morrison Eli">
+
+    <title>PrimeHub Chamber of Commerce - Home Page</title>
+    <link rel="icon" href="images/favicon2.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -18,18 +18,28 @@
       rel="stylesheet"
     >
     <link rel="stylesheet" href="styles/members.css">
-    <meta property="og:title" content="PrimeHub Chamber of Commerce Directory">
-    <meta property="og:description" content="Explore local businesses and services in PrimeHub.">
-    <meta property="og:image" content="https://Edprime9.github.io/wdd231/images/profile.jpg">
-    <meta property="og:url" content="https://Edprime9.github.io/wdd231/chamber/directory.html">
+    <meta
+      property="og:title"
+      content="PrimeHub Chamber of Commerce Directory"
+    >
+    <meta
+      property="og:description"
+      content="Explore local businesses and services in PrimeHub."
+    >
+    <meta
+      property="og:image"
+      content="https://Edprime9.github.io/wdd231/images/profile.jpg"
+    >
+    <meta
+      property="og:url"
+      content="https://Edprime9.github.io/wdd231/chamber/directory.html"
+    >
     <script src="scripts/home.js" defer></script>
     <script src="scripts/spotlights.js" defer></script>
     <script src="scripts/members.js" defer></script>
-
-
-</head>
-<body>
-   <header>
+  </head>
+  <body>
+    <header>
       <div class="logo">
         <img
           src="images/phs-logo.jpg"
@@ -49,42 +59,43 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <div>
+        <!-- Hero Section -->
+        <section class="hero">
+          <div class="hero-content">
+            <h1>Welcome to Our Chamber</h1>
+            <p>Connecting businesses and communities</p>
+            <a href="join.html" class="cta-button">Join Now</a>
+          </div>
+        </section>
 
-  <div>
-    <!-- Hero Section -->
-    <section class="hero">
-    <div class="hero-content">
-      <h1>Welcome to Our Chamber</h1>
-      <p>Connecting businesses and communities</p>
-      <a href="join.html" class="cta-button">Join Now</a>
-    </div>
-  </section>
-  
-  <div class="container"></div>
-    <!-- Events Section -->
-    <section class="events">
-      <h2>Upcoming Events</h2>
-      <ul>
-        <li>Farmers Market - June 1st</li>
-        <li>Business Networking Night - June 5th</li>
-      </ul>
-    </section>
-    <!-- Weather section -->
-  <section>
-    <h2>Weather</h2>
-    <div id="weather"></div>
-    <div id="forecast"></div>
-  </section>
+        <div class="container">
+          <!-- Events Section -->
+          <section class="events">
+            <h2>Upcoming Events</h2>
+            <ul>
+              <li>Farmers Market - June 1st</li>
+              <li>Business Networking Night - June 5th</li>
+            </ul>
+          </section>
+          <!-- Weather section -->
+          <section>
+            <h2>Weather</h2>
+            <div id="weather"></div>
+            <div id="forecast"></div>
+          </section>
 
-  <!-- Spotlight section -->
-  <section>
-    <h2>Business Spotlights</h2>
-    <div id="spotlights" class="spotlight-container"></div>
-  </section>
-</div>
-  </main>
+          <!-- Spotlight section -->
+          <section>
+            <h2>Business Spotlights</h2>
+            <div id="spotlights" class="spotlight-container"></div>
+          </section>
+        </div>
+      </div>
+    </main>
 
-   <footer>
+    <footer>
       <div class="contact-info">
         <p><strong>PrimeHub Chamber of Commerce</strong></p>
         <p>20A Gbalajam Woji, Port Harcourt, Rivers Nigeria.<br></p>
@@ -108,12 +119,11 @@
       </div>
     </footer>
 
-  
-  <script>
+    <script>
       // Footer Year and Last Modified Date
       document.getElementById("year").textContent = new Date().getFullYear();
       document.getElementById("lastModified").textContent =
         document.lastModified;
     </script>
-</body>
+  </body>
 </html>
