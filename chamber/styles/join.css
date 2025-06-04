@@ -126,26 +126,3 @@ dialog button:hover,
 .card a:hover {
   background: #12b886;
 }
-
-/* ===== Footer ===== */
-footer {
-  background-color: #087f5b;
-  color: white;
-  font-size: 12px;
-  padding: 2rem 1rem;
-  margin-top: 2rem;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-footer .contact-info,
-footer .footer-note,
-footer .social-icons {
-  margin-bottom: 1rem;
-}
-
-footer .social-icons img {
-  width: 32px;
-  height: 32px;
-  margin-right: 0.5rem;
-}
