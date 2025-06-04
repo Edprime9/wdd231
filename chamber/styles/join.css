@@ -1,0 +1,150 @@
+.join-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input[type="submit"] {
+  background-color: #087f5b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #12b886;
+}
+
+input[required] {
+  border-left: 2px solid #ff0000;
+  background-color: #fff5f5;
+  padding: 0.5em;
+}
+
+/* Membership Cards Layout */
+.membership-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease-out;
+  animation-fill-mode: both;
+}
+
+/* Responsive Layout */
+@media (min-width: 768px) {
+  .join-main {
+    flex-direction: row;
+  }
+
+  .membership-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .membership-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Modal Styles */
+dialog {
+  border: none;
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog button,
+.card a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #087f5b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+dialog button:hover,
+.card a:hover {
+  background: #12b886;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #087f5b;
+  color: white;
+  font-size: 12px;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer .contact-info,
+footer .footer-note,
+footer .social-icons {
+  margin-bottom: 1rem;
+}
+
+footer .social-icons img {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.5rem;
+}
