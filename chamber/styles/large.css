@@ -1,0 +1,15 @@
+.discover {
+  grid-template-areas:
+    "sidebar gallery gallery"
+    "sidebar gallery gallery";
+  grid-template-columns: 300px 1fr 1fr;
+}
+
+.gallery {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

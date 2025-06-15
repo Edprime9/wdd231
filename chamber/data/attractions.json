@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Isaac Boro Park",
+    "address": "Mile 1, Orogbum, Port Harcourt.",
+    "description": "A public park and outdoor recreation area located in Port Harcourt, Rivers State, Nigeria.",
+    "image": "images/IsaacBoroGardenPark.jpg"
+  },
+
+  {
+    "name": "Rivers State Mesuem",
+    "address": "Bonny Street, Port Harcourt, Rivers.",
+    "description": "A multifaceted facility dedicated to promoting and preserving the state's rich cultural heritage.",
+    "image": "images/rivers-state-museum.jpg"
+  },
+
+  {
+    "name": "Tourist Beach",
+    "address": "Port Harcourt, Rivers State, Nigeria.",
+    "description": "A white sand urban beach, a popular destination for locals and tourists seeking relaxation and fun.",
+    "image": "images/Port-Harcourt-Tourist-Beach.jpg"
+  },
+
+  {
+    "name": "Port-Harcourt Pleasure Park",
+    "address": "Aba Rd, Rivers State, Nigeria.",
+    "description": "A popular public recreation park located in Port Harcourt, Rivers State, Nigeria.",
+    "image": "images/portharcourtpleasurepark.jpg"
+  },
+
+  {
+    "name": "Garden City Amusement Park",
+    "address": "9 Birabi Street, Port Harcourt, Rivers State Ng.",
+    "description": "A park that features various attractions, such as rides and games, as well as other events for entertainment purposes.",
+    "image": "images/gardencity-waterpark.jpg"
+  },
+
+  {
+    "name": "Presidential Hotel",
+    "address": "1 Birabi Street, Port Harcourt - Aba Expy, Port Harcourt",
+    "description": "Hotel Presidential in Port Harcourt offers a 5-star experience with a garden, terrace, restaurant, bar, tennis court, and a year-round outdoor swimming pool. Complimentary WiFi is available throughout the property.",
+    "image": "images/portharcourtpresidentalhotel.jpg"
+  },
+
+  {
+    "name": "Creed Upscale Bistro & Bar",
+    "address": "31 Apara Rd, Elechi, Port Harcourt, Nigeria. ",
+    "description": "It is a trendy and sophisticated establishment, tailored to meet your unwinding and relaxation needs.",
+    "image": "images/creedportharcourt.jpg"
+  },
+
+  {
+    "name": "Obudu Mountain Resort",
+    "address": "Peter Odili Rd, Trans Amadi, Port Harcourt, Rivers",
+    "description": "t's renowned for its scenic beauty, cool climate, and various recreational activities. The resort is situated on the Obudu Plateau, part of the Sankwala Mountains. ",
+    "image": "images/obuducattleranch.jpg"
+  }
+]
