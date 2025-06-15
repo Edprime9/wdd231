@@ -344,6 +344,7 @@ section h2 {
 }
 
 .card button {
+  margin-top: 20px;
   background-color: #087f5b;
   color: white;
   border: none;
