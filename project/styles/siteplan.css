@@ -41,10 +41,10 @@ main {
 }
 
 strong {
-  color: var(--primary-color);
   display: block;
   margin-top: 1.5rem;
   font-weight: 600;
+  font-style: italic;
 }
 
 ul {
@@ -58,7 +58,6 @@ ul li {
 }
 
 a {
-  color: var(--primary-color);
   text-decoration: underline;
 }
 
