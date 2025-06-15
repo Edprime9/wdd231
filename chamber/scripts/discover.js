@@ -47,3 +47,31 @@ function displayVisitMessage() {
 
 // Initialize on page load
 window.addEventListener("DOMContentLoaded", displayVisitMessage);
+
+// Christmas countdown
+function calculateDaysUntilChristmas() {
+    const today = new Date();
+    const currentYear = today.getFullYear();
+    const christmas = new Date(currentYear, 11, 25);
+    
+    if (today > christmas) {
+        christmas.setFullYear(currentYear + 1);
+    }
+    
+    const diffTime = christmas - today;
+    return Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+}
+
+function displayChristmasCountdown() {
+    const days = calculateDaysUntilChristmas();
+    const message = document.createElement('p');
+    message.id = 'christmas-countdown';
+    message.textContent = `Only ${days} ${days === 1 ? 'day' : 'days'} until Christmas!`;
+    document.querySelector('.sidebar').appendChild(message);
+}
+
+// Initialize both features
+window.addEventListener('DOMContentLoaded', function() {
+    displayVisitMessage();
+    displayChristmasCountdown();
+});
