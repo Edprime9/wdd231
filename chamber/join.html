@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Join the PrimeHub Chamber of Commerce to access exclusive business benefits, networking opportunities, promotional tools, and event discounts. Choose from four membership levels tailored to your organization's needs.">
-    <meta name="author" content="Morrison Eli">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Join the PrimeHub Chamber of Commerce to access exclusive business benefits, networking opportunities, promotional tools, and event discounts. Choose from four membership levels tailored to your organization's needs."
+    />
+    <meta name="author" content="Morrison Eli" />
 
-    <title>Join PrimeHub Chamber of Commerce | Membership Levels & Benefits</title>
-    <link rel="icon" href="images/favicon2.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>
+      Join PrimeHub Chamber of Commerce | Membership Levels & Benefits
+    </title>
+    <link rel="icon" href="images/favicon2.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
-    >
+    />
     <meta
       property="og:title"
       content="Join PrimeHub Chamber of Commerce | Membership Levels & Benefits"
-    >
+    />
     <meta
       property="og:description"
       content="Join the PrimeHub Chamber of Commerce to access exclusive business benefits, networking opportunities, promotional tools, and event discounts. Choose from four membership levels tailored to your organization's needs"
-    >
+    />
     <meta
       property="og:image"
       content="https://Edprime9.github.io/wdd231/images/profile.jpg"
-    >
+    />
     <meta
       property="og:url"
       content="https://Edprime9.github.io/wdd231/chamber/directory.html"
-    >
+    />
     <script src="scripts/members.js" defer></script>
-    <link rel="stylesheet" href="styles/join.css">
-    <link rel="stylesheet" href="styles/members.css">
+    <link rel="stylesheet" href="styles/join.css" />
+    <link rel="stylesheet" href="styles/members.css" />
   </head>
   <body>
     <header>
@@ -40,7 +45,7 @@
         <img
           src="images/phs-logo.jpg"
           alt="PrimeHub Chamber of Commerce Logo"
-        >
+        />
         <p>PrimeHub Chamber of Commerce</p>
       </div>
       <button id="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
@@ -49,8 +54,8 @@
       <nav id="main-nav">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="directory.html" class="active">Directory</a></li>
-          <li><a href="join.html">Join</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="join.html" class="active">Join</a></li>
           <li><a href="discover.html">Discover</a></li>
         </ul>
       </nav>
@@ -66,7 +71,7 @@
             title="First Name"
             autocomplete="given-name"
             required
-          >
+          />
         </label>
 
         <label>
@@ -77,7 +82,7 @@
             title="Last Name"
             autocomplete="family-name"
             required
-          >
+          />
         </label>
 
         <label>
@@ -88,7 +93,7 @@
             title="Organization Title"
             autocomplete="organization-title"
             pattern="[A-Za-z\-\s]{7,}"
-          >
+          />
         </label>
 
         <label>
@@ -100,7 +105,7 @@
             autocomplete="email"
             placeholder="example@email.com"
             required
-          >
+          />
         </label>
 
         <label>
@@ -111,7 +116,7 @@
             title="Mobile Phone"
             autocomplete="tel"
             required
-          >
+          />
         </label>
 
         <label>
@@ -122,7 +127,7 @@
             title="Business Name"
             autocomplete="organization"
             required
-          >
+          />
         </label>
 
         <label>
@@ -140,8 +145,8 @@
           <textarea name="description" title="Business Description"></textarea>
         </label>
 
-        <input type="hidden" name="timestamp" id="timestamp" >
-        <input type="submit" value="Submit Membership Request">
+        <input type="hidden" name="timestamp" id="timestamp" />
+        <input type="submit" value="Submit Membership Request" />
       </form>
 
       <section class="membership-cards">
@@ -213,22 +218,22 @@
       <!-- Chamber Footer -->
       <div class="contact-info">
         <p><strong>PrimeHub Chamber of Commerce</strong></p>
-        <p>20A Gbalajam Woji, Port Harcourt, Rivers Nigeria.<br></p>
+        <p>20A Gbalajam Woji, Port Harcourt, Rivers Nigeria.<br /></p>
         <p>Phone: (+234) 90 1101 0392</p>
       </div>
       <div class="social-icons">
         <a href="https://web.facebook.com/morrison.morris.77" target="_blank"
           ><img src="images/logo-facebook.svg" alt="Facebook"
-        ></a>
+        /></a>
         <a href="https://x.com/Elite_Morrison" target="_blank"
           ><img src="images/logo-twitter.svg" alt="Twitter"
-        ></a>
+        /></a>
         <a href="https://www.linkedin.com/in/morrisoneli/" target="_blank"
           ><img src="images/logo-linkedin.svg" alt="LinkedIn"
-        ></a>
+        /></a>
       </div>
       <div class="footer-note">
-        <p>WDD231 Class Project<br>Morrison Eli</p>
+        <p>WDD231 Class Project<br />Morrison Eli</p>
         <p>&copy; <span id="year"></span> PrimeHub Chamber of Commerce</p>
         <p>Last Modification: <span id="lastModified"></span></p>
       </div>
@@ -246,10 +251,10 @@
         });
       });
 
-       // Footer Year and Last Modified Date
+      // Footer Year and Last Modified Date
       document.getElementById("year").textContent = new Date().getFullYear();
       document.getElementById("lastModified").textContent =
-      document.lastModified;
+        document.lastModified;
     </script>
   </body>
 </html>
