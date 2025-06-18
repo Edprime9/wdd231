@@ -45,17 +45,22 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
-    <!-- Update the header section in dashboard.html -->
+   
     <header class="dashboard-header">
       <div class="hamburger" id="hamburger">
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>
       </div>
-      <h1>FitDash</h1>
-      <div class="user-profile">
+       <img 
+        src="images/Fitdash.jpeg" 
+        data-src="images/fitness-hero.jpg" 
+        alt="Fitness dashboard tracking" 
+        class="hero-bg lazy"
+        loading="lazy"
+        width="100"
+        >
         <span>Welcome, User!</span>
-      </div>
     </header>
 
     <div class="overlay" id="overlay"></div>
@@ -68,7 +73,9 @@
       </ul>
     </nav>
 
-    <main class="dashboard-grid">
+    <main>
+      <h1>FitDash - Dashboard</h1>
+      <div  class="dashboard-grid">
       <!-- Stats Cards -->
       <section class="stats-card" id="steps-card">
         <h3>Steps</h3>
@@ -102,7 +109,7 @@
         <h3>Sleep</h3>
         <div class="sleep-display"><span>7.5</span> hours</div>
         <div class="sleep-controls">
-          <input type="range" min="4" max="12" step="0.5" value="7.5" />
+          <input type="range" min="4" max="12" step="0.5" value="7.5">
         </div>
       </section>
 
@@ -128,6 +135,7 @@
         </div>
         <button id="refresh-tip">New Tip</button>
       </section>
+      </div>
     </main>
     <footer>
       <div class="contact-info">

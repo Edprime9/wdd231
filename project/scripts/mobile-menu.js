@@ -26,3 +26,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+// Add to your mobile-menu.js or create a new script
+document.addEventListener('DOMContentLoaded', function() {
+  const hero = document.querySelector('.hero');
+  
+  // Load hero image after page loads
+  const heroImage = new Image();
+  heroImage.src = 'images/fitness-hero.jpg';
+  heroImage.onload = function() {
+    hero.classList.add('loaded');
+  };
+});

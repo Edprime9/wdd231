@@ -5,10 +5,6 @@
   --background-color: #f8f9fa;
   --card-color: #ffffff;
   --text-color: #333333;
-  --text-light: #777777;
-  --success-color: #4caf50;
-  --warning-color: #ff9800;
-  --danger-color: #f44336;
 }
 
 * {
@@ -27,15 +23,85 @@ body {
   margin-left: 1rem;
 }
 
-.hero-content h1 {
+h1 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    linear-gradient(to bottom, rgba(74, 111, 165, 0.1), rgba(22, 96, 136, 0.1));
+  z-index: -1;
+}
+
+.hero.loaded::before {
+  background: 
+    linear-gradient(to bottom, rgba(74, 111, 165, 0.1), rgba(22, 96, 136, 0.1)),
+    url('../images/fitness-hero.jpg') center/cover no-repeat;
+}
+
+.hero-content {
+  max-width: 800px;
+  padding: 2rem;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .hero {
+    min-height: 500px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3.5rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+  }
+}
+
+/* Feature cards hover effect */
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .cta-button {
   display: inline-block;
   background-color: white;
-  color: var(--primary-color);
+  color: #000;
   padding: 0.8rem 1.5rem;
   border-radius: 30px;
   text-decoration: none;
@@ -79,9 +145,8 @@ body {
 
 /* Dashboard Styles */
 .dashboard-header {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: white;
-  padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
